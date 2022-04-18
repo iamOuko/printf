@@ -60,7 +60,7 @@ static int hex_print(char c)
 }
 
 /**
- * print_S - prints a string and nonprintable character ascii values
+ * print_S - prints a string and nonprintable character and their ascii values
  * @S: string to print
  *
  * Return: number of chars printed
@@ -92,7 +92,7 @@ int print_S(va_list S)
 }
 
 /**
- * print_r - prints astring in reverse
+ * print_r - prints a string in reverse
  * @r: string to print
  *
  * Return: number of chars printed
